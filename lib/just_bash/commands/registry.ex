@@ -69,6 +69,8 @@ defmodule JustBash.Commands.Registry do
     "curl" => Commands.Curl,
     "jq" => Commands.Jq,
     "set" => Commands.Set,
+    "bash" => Commands.Shell,
+    "sh" => Commands.Shell,
     "source" => Commands.Source,
     "." => Commands.Source,
     "markdown" => Commands.Markdown,
